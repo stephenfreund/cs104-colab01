@@ -1,0 +1,11 @@
+test = {   'name': 'q9.2',
+    'points': 5,
+    'suites': [   {   'cases': [   {   'code': '>>> 1 <= smallest_change_major <= 3\nTrue',
+                                       'failure_message': 'Be sure to set smallest_change_major to either 1, 2, or 3.',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> smallest_change_major == 1\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

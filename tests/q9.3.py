@@ -1,0 +1,12 @@
+test = {   'name': 'q9.3',
+    'points': 5,
+    'suites': [   {   'cases': [   {'code': '>>> 0 <= complit_relative_change <= 200\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 <= psych_relative_change <= 200\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 <= math_relative_change <= 200\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> #HIDDEN\n>>> np.isclose(complit_relative_change, 120.0)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> #HIDDEN\n>>> np.isclose(psych_relative_change, 27.419354838709676)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> #HIDDEN\n>>> np.isclose(math_relative_change, 15.09433962264151)\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
